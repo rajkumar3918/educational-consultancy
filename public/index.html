@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLUE WHALE</title>
+   <style>
+    .main-img{
+    animation: key 4s infinite;
+}
+
+@keyframes key {
+    0%{
+        transform: translateY(20px);
+    }
+    50%{
+        transform: translateY(-20px);
+    }
+    100%{
+        transform: translateY(20px);
+    }
+}
+   </style>
+</head>
+<body>
+    <section style="background-color: rgb(238, 237, 237);" class=" container-fluid border pt-3 border-secondary">
+        <div class="row">
+            <div class="col-5">
+                <h2 style="color: rgb(12, 134, 235);">Blue WHALE</h2>
+            </div>
+            <div class="col">
+                    <div class="nav ">
+             <div class="nav-item">
+                <a class="nav-link " href="">Home</a>
+               
+            </div>
+             <div class="nav-item">
+                <a class="nav-link" href="">About</a>
+            </div>
+             <div class="nav-item">
+                <a id="drop" class="nav-link  dropdown-toggle" data-bs-toggle="dropdown"  data-bs-toggle="tooltip" title="Dropdown"  href="">Services</a>
+                <ul class="dropdown-menu">
+                    <li class="dropdown-item"><a style="text-decoration: none;" href="" >HIGHER STUDIES</a></li>
+                    <li class="dropdown-item"><a style="text-decoration: none;" href="" >JOB ORIENTED PROGRAM</a></li>
+                    <li class="dropdown-item"><a style="text-decoration: none;" href="" >GRE</a></li>
+                    <li class="dropdown-item"><a style="text-decoration: none;" href="" >GATE</a></li>
+                </ul>
+            </div>
+             <div class="nav-item">
+                <a class="nav-link" href="">Team</a>
+            </div>
+             <div class="nav-item">
+                <a class="nav-link" href="">contact</a>
+            </div>
+            <div>   <input class="rounded-pill mt-2 " type="text" placeholder="search"></div>
+           </div>
+            </div>
+        </div>
+    
+    </section>
+    <section style="background-color: deepskyblue;" class="container-fluid d-flex  pt-5">
+      <div>
+          <h1 class="mt-5">BUILT YOUR CAREER WITH BLUE WHALE</h1>
+          <p style="font-size: 25px;">We are Team of talanted people, will make you career better</p>
+        <button class="btn btn-outline-success rounded-pill mt-5" data-bs-target="#modal" data-bs-toggle="modal"  data-bs-toggle="tooltip" title="Modal">REGISTER HERE</button>
+        <div class="modal modal-dismissible" id="modal">
+            
+       
+            <div class="modal-dialog bg-secondary">
+                <div class="modal-header">
+                <div class="modal-content bg-warning text-center">REGISTRATION FORM</div>
+                    <button class="btn btn-close" data-bs-dismiss="modal"></button>
+                 </div>
+                   <div class="modal-body">
+            
+                   
+                    <div class="modal-content">
+                        <form class="was-validated p-2" action="">
+                            <div class="row mt-2">
+                                <div class="col">
+                                    <label for="">NAME</label>
+                                </div>
+                                <div class="col">
+                                    <input class="form-control" type="text" placeholder="enter your name" required>
+                                    <div class="valid-feedback"></div>
+                                    <div class="invalid-feedback">in-valid input</div>
+                                         
+                                </div>
+                            </div>
+                              <div class="row mt-2">
+                                <div class="col">
+                                 <label for="">GENDER</label>
+                                 </div>
+                                <div class="col">
+                                        <input class="form-check-input" type="radio" name="one"><span class="me-3">MALE</span>
+                                        <input class="form-check-input" type="radio" name="one" ><span  class="me-3">FEMALE</span>
+                                    </div>
+                               </div>
+                            
+                             <div class="row mt-2">
+                                <div class="col">
+                                    <label for="">EMAIL ID</label>
+                                </div>
+                                <div class="col">
+                                    <input class="form-control" type="text" placeholder="enter your email id" required>
+                                    <div class="valid-feedback"></div>
+                                    <div class="invalid-feedback">in-valid input</div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <label for="">MOBILE NUMBER</label>
+                                </div>
+                                <div class="col">
+                                    <input class="form-control" type="text" placeholder="enter your number" required>
+                                    <div class="valid-feedback"></div>
+                                    <div class="invalid-feedback"></div>
+                                </div>
+                            </div>
+                            <div class="row mt-2">
+                                <div class="col">
+                                    <label for="">CHOOSE SERVICE</label>
+                                </div>
+                                <div class="col">
+                                    <select name="" id="">
+                                        <option value="">Higher Studies (Abroad)</option>
+                                        <option value="">Job Oriented Programs</option>
+                                        <option value="">IELS Preparation</option>
+                                        <option value="">GRE Preparation</option>
+                                        <option value="">GATE Preparation</option>
+                                    </select>
+                                </div>
+                            </div>
+                               <button class="form-control bg-success mt-3">submit</button>
+                        </form>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+      </div>
+      <div>
+        <img class="w-100 main-img" src="./media/hero-img.png" alt="">
+      </div>
+      
+    </section>
+    <div class="d-flex justify-content-center align-items-center mt-5">
+            <div style="width: 3000px;"><img class="w-100" src="./media/why-us.png" alt=""></div>
+    <div >
+        <h1>OUR SERVICES</h1>
+        <p>Hope Consultants has a team of experienced and certified counselors who provide career counselling to each student and guide him or her to choose the right course and study destination to secure their bright future overseas. We have been doing this career counseling since 2006 and we been awarded by students, parents and several education providers. When the student comes or book counseling session with us, we check his or her Academic profile, English Proficiency, financial circumstances, study gap, immigration history and future plans and then suggest right institution and right destination.</p>
+        <ul  class="list-group">
+            <li class="list-group-item"><a style="text-decoration: none;" data-bs-toggle="collapse" data-bs-target="#collapse" href=""  data-bs-toggle="tooltip" title="collapse">Higher Studies MS (Abroad)</a>
+            <p class="collapse" id="collapse">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia, quod. Dolores exercitationem minima itaque inventore quos, provident ipsam omnis dolorem repellendus? Nisi possimus minus a facilis eius error consequatur officiis!</p></li>
+            <li class="list-group-item"><a style="text-decoration: none;" data-bs-toggle="collapse" data-bs-target="#collapse1" href="" data-bs-toggle="tooltip" title="collapse">IELS PREPARATION</a>
+            <p class="collapse" id="collapse1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia, quod. Dolores exercitationem minima itaque inventore quos, provident ipsam omnis dolorem repellendus? Nisi possimus minus a facilis eius error consequatur officiis!</p></li>
+            <li class="list-group-item"><a style="text-decoration: none;" data-bs-toggle="collapse" data-bs-target="#collapse2" href="" data-bs-toggle="tooltip" title="collapse">GRE preparation</a>
+            <p class="collapse" id="collapse2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia, quod. Dolores exercitationem minima itaque inventore quos, provident ipsam omnis dolorem repellendus? Nisi possimus minus a facilis eius error consequatur officiis!</p></li>
+            <li class="list-group-item"><a style="text-decoration: none;" data-bs-toggle="collapse" data-bs-target="#collapse3" href="" data-bs-toggle="tooltip" title="collapse">GATE Preparation</a>
+            <p class="collapse" id="collapse3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia, quod. Dolores exercitationem minima itaque inventore quos, provident ipsam omnis dolorem repellendus? Nisi possimus minus a facilis eius error consequatur officiis!</p></li>
+            <li class="list-group-item"><a style="text-decoration: none;" data-bs-toggle="collapse" data-bs-target="#collapse4" href="" data-bs-toggle="tooltip" title="collapse">JOB oriented Programs</a>
+            <p class="collapse" id="collapse4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia, quod. Dolores exercitationem minima itaque inventore quos, provident ipsam omnis dolorem repellendus? Nisi possimus minus a facilis eius error consequatur officiis!</p></li>
+        </ul>
+    </div>
+    </div>
+
+    <div class=" d-grid mt-5 justify-content-center">
+      <div class="row gap-5">
+          <div class="col border border-2" data-bs-toggle="tooltip" title="Grid">
+            <h3>JOB ORENTED PROGRAMS</h3>
+            <p>FULL STACK WEB DEVELOPMENT</p>
+            <p>Cloud Computing</p>
+            <p>DESIGNING </p>
+            <p>Embaded Software Training</p>
+            
+        </div>
+        <div class="col border border-2" data-bs-toggle="tooltip" title="Grid">
+            <h3>ENTERNCE EXAMS</h3>
+            <p>GATE preparation</p>
+            <p>GRE Preparation</p>
+            <p>IELS Preparation</p>
+        </div>
+        <div class="col border border-2" data-bs-toggle="tooltip" title="Grid">
+            <h3>HIGHER STUDIES</h3>
+            <p>MS abroad</p>
+            <p>IIT'S</p>
+            <p>NIT'S</p>
+        </div>
+      </div>
+    </div>
+
+    <div style="margin-top: 6rem;" class="  p-3 container-fluid d-grid justify-content-center align-items-center">
+    <div class="row">
+        <div style="width: 300px; " class="col">
+            <img class="w-100" src="./media/skills.png" alt="">
+        </div>
+      <div class="col">
+        <h1>OUR ACHIVEMENTS</h1>
+        <p>We believe Visa lodgement is very crucial and complex stage in the entire Appliation process and at HOPE CONSULTANT, only highly experienced team handle this case as providing incomplete information or form can lead to Visa refusal and make entire team stressful. Our team has already handled thousands of VISA lodgement Appliations and quite familiar with this process and expert in filling the VISA forms and providing appropriate documents to VISA office as per their check lists to make sure that Visa Application is process faster and decision is made in time to make travel arrangment hattle free</p>
+        <div class="mt-4">HIGHER STUDIES (ABROAD)</div>
+        <div class="progress ">
+            <div class="progress-bar w-75 bg-success" data-bs-toggle="tooltip" title="progress bar">758 students </div>
+        </div>
+         <div class="mt-4">JOB ORIENTED PROGRAM</div>
+            <div class="progress ">
+            <div class="progress-bar w-50 bg-warning" data-bs-toggle="tooltip" title="progress bar">559 students placed till now </div>
+        </div>
+        <div class="mt-4">ENTERNCE EXAMS</div>
+            <div class="progress ">
+            <div class="progress-bar w-75 bg-peimary" data-bs-toggle="tooltip" title="progress bar">765 students went for IIT'S</div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+
+    <div>
+        
+    </div>
+
+    <section style="margin-top: 6rem;" class="container" >
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+            <!-- indicators. -->
+
+
+            <ul class="carousel-indicators">
+                <li data-bs-target="#demo" data-bs-slide-to="0" class="active"></li>
+                <li data-bs-target="#demo" data-bs-slide-to="1" ></li>
+                <li data-bs-target="#demo" data-bs-slide-to="2" ></li>
+                <li data-bs-target="#demo" data-bs-slide-to="3" ></li>
+            </ul>
+
+
+            <!-- slideshow -->
+
+
+            <div class="carousel-inner">
+                <div class="carousel-item active"style="height: 400px;">
+                    <img class="d-block w-100 h-100" src="./media/slideshow1.png" alt="">
+                </div>
+                <div class="carousel-item" style="height: 400px;">
+                    <img class="d-block w-100 h-100"  src="./media/slideshow2.png" alt="">
+                </div>
+                <div class="carousel-item"style="height: 400px;">
+                    <img class="d-block w-100 h-100"  src="./media/slideshow3.png" alt="">
+                </div>
+                <div class="carousel-item"style="height: 400px;">
+                    <img class="d-block w-100 h-100"  src="./media/slideshow4.png" alt="">
+                </div>
+
+            </div>
+            
+            <!-- left-right controls -->
+
+            <button style="width: 50px;" class="carousel-control-prev bg-secondary" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon w-50"></span>
+            </button>
+            <button style="width: 50px;" class="carousel-control-next bg-secondary" type="button" data-bs-target="#demo" data-bs-slide="next">
+                <span class="carousel-control-next-icon w-50"></span>
+            </button>
+
+        </div>
+    </section>
+
+    <h1 class="text-center mt-5">OUR TEAM</h1>
+
+    <div style="margin-top: 3rem;" class="container d-flex gap-5 justify-content-between">
+        <div class="card w-25" data-bs-toggle="tooltip" title="CARD">
+            <div class="card-header">
+                <img class="w-100" src="./media/team-1.png" alt="">
+            </div>
+            <strong class="card-body">
+                Walter White</strong>
+            <p class="card-footer">Chief Executive Officer<br>Explicabo voluptatem mollitia et repellat qui dolorum quas</p>
+        </div>
+        <div class="card w-25" data-bs-toggle="tooltip" title="CARD">
+            <div class="card-header">
+                <img class="w-100" src="./media/team-2.png" alt="">
+            </div>
+            <strong class="card-body">
+                Sarah Jhonson</strong>
+                <p class="card-footer">Chief manager<br>Explicabo voluptatem mollitia et repellat qui dolorum quas</p>
+        </div>
+        <div class="card w-25" data-bs-toggle="tooltip" title="CARD">
+            <div class="card-header">
+                <img class="w-100" src="./media/team-3.png" alt="">
+            </div>
+            <strong class="card-body">William Anderson</strong>
+            <p class="card-footer">CTO<br>Explicabo voluptatem mollitia et repellat qui dolorum quas</p>
+        </div>
+        <div class="card w-25" data-bs-toggle="tooltip" title="CARD">
+            <div class="card-header">
+                <img class="w-100" src="./media/team-4.png" alt="">
+            </div>
+            <strong class="card-body">Amanda Jepson</strong>
+            <p class="card-footer">Accountant<br>Explicabo voluptatem mollitia et repellat qui dolorum quas</p>
+        </div>
+    </div>
+
+    <section class="container mt-5">
+        <h1>JOB ORIENTED PORGRAM</h1>
+        <table class="table table-hover table-primary table-striped" data-bs-toggle="tooltip" title="TABLE">
+            <tr>
+                <th>BATCHS</th>
+                <TH>STUDENTS PLACED</TH>
+                <th>OUT OF</th>
+                <th>4.6LPA & ABOVE</th>
+                <th>6.5LPA & ABOVE</th>
+                <TH>8LPA & ABOVE</TH>
+            </tr>
+            <tr>
+                <th >BATCH 1</th>
+                <td>95</td>
+                <td>100</td>
+                <td>40</td>
+                <td>35</td>
+                <td>20</td>
+            </tr>
+            <tr >
+                <th >BATCH 2</th>
+                <td>90</td>
+                <td>95</td>
+                <td>45</td>
+                <td>30</td>
+                <td>15</td>
+            </tr>
+            <tr >
+                <th >BATCH 3</th>
+                <td>98</td>
+                <td>110</td>
+                <td>48</td>
+                <td>50</td>
+                <td>10</td>
+            </tr>
+            <tr >
+                <th >BATCH 4</th>
+                <td>100</td>
+                <td>101</td>
+                <td>40</td>
+                <td>40</td>
+                <td>20</td>
+            </tr>
+        </table>
+    </section>
+
+    <section class="container mt-5">
+        <h1>HIGHER STUDIES ABROAD</h1>
+        <table class="table table-hover table-primary table-striped" data-bs-toggle="tooltip" title="TABLE">
+            <tr>
+                <th>BATCHS</th>
+                <TH>STUDENTS WENT</TH>
+                <th>OUT OF</th>
+                <th>ITALY</th>
+                <th>CANADA</th>
+                <TH>USA</TH>
+            </tr>
+            <tr>
+                <th >BATCH 1</th>
+                <td>95</td>
+                <td>100</td>
+                <td>40</td>
+                <td>35</td>
+                <td>20</td>
+            </tr>
+            <tr >
+                <th >BATCH 2</th>
+                <td>90</td>
+                <td>95</td>
+                <td>45</td>
+                <td>30</td>
+                <td>15</td>
+            </tr>
+            <tr >
+                <th >BATCH 3</th>
+                <td>98</td>
+                <td>110</td>
+                <td>48</td>
+                <td>50</td>
+                <td>10</td>
+            </tr>
+            <tr >
+                <th >BATCH 4</th>
+                <td>100</td>
+                <td>101</td>
+                <td>40</td>
+                <td>40</td>
+                <td>20</td>
+            </tr>
+        </table>
+    </section>
+
+
+    <section style="margin-top:10rem ;" class="d-flex justify-content-center align-items-center">
+        <div ><img w-100 src="./media/about.png" alt=""></div>
+     
+        <div>
+            <h1 class="text-primary">ABOUT BLUE WHALE</h1>
+                <p>Studying for higher-education has become a priority for all. But, not everyone is fortunate to have proper guidance and adequate financial resources to reach their ultimate target. To alleviate this situation, some leading abroad education consultants came into the picture. We are proud to proclaim that the BLUE WHALE CONSULTANT is one among them.
+
+               Assuredly, there are innumerable universities around the world. But, choosing the right one makes a big difference. We, at BLUE WHALE CONSULTANT exhort you the best universities that solicit academic excellence, where students fetch different styles of education, contributing to their own distinctive background and ideas while learning.</p>
+               <ul class="mt-3">
+                <li>To guide you through your career decisions</li>
+                <li>To be a part of your journey from ‘I want to study abroad’ to ‘I successfully studied abroad’</li>
+                <li>To be a motivating force that lets you reach peaks at your career</li>
+                <li>To establish ourselves as the one-stop destination for all the abroad education needs.</li>
+               </ul>
+
+               <div class="btn btn-outline-primary rounded-pill" data-bs-toggle="tooltip" title="button">LEARN MORE</div>
+        </div>
+
+        
+    </section>
+
+    <section style="margin-top:10rem ;"  class="container border border-2 text-center">
+        <h1 class="text-primary">WHY US?</h1>
+        <p>BLUE WHALE CONSULTANT mission is to help every school student get into his dream university through our unrelenting effort in providing most authentic and verified information about the university and country to students that have created a bond of trust with thousands of students.</p>
+        <button class="btn btn-outline-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas" data-bs-toggle="tooltip" title="CANVAS">VISION</button>
+        <div class="offcanvas offcanvas-start" id="offcanvas">
+            <div class="offcanvas-header">
+                <h3 class="offcanvas-title text-primary">VISION</h3>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+            </div>
+            <div class="offcanvas-body">
+                <p>We are committed to deliver the highest quality of study experience to overseas students by developing different branch offices throughout different countries as well as improving our service quality, customer experience and reachability.
+
+                    We will inspire overseas students and new immigrants and participate in social activities to create a bright and harmonious future for the society, thereby developing a strong community.</p>
+            </div>
+        </div>
+        <button class="btn btn-outline-success" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas2" data-bs-toggle="tooltip" title="CANVAS">MISSION</button>
+        <div class="offcanvas offcanvas-end" id="offcanvas2">
+            <div class="offcanvas-header">
+                <h3 class="offcanvas-title text-success" >MISSION</h3>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+            </div>
+            <div class="offcanvas-body">
+                <p>To become the leading education and migration firm in Varansi, we learn and discover the skills and qualities of students to help students and their parents select the courses and providers in accordance with their academic background and financial capacity. We thrive to provide our clients excellent services with clear communication, fast and simplified application process and successful outcome</p>
+            </div>
+           
+        </div>
+    </section>
+
+    <form action="" class="container mt-5 p-5">
+        <div class="row was-validated">
+            <div class="col">
+                <label for="">MOBILE NUMBER</label>
+            </div>
+            <div class="col">
+                <input class="form-control" type="text" maxlength="12" placeholder="enter your number" required>
+            <div class="valid-feedback"></div>
+             <div class="invalid-feedback">in-valid input</div>
+            </div>
+
+        </div>
+        <button class="btn btn-success form-control mt-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#submit" data-bs-toggle="tooltip" title="CANVAS"> REQUEST A CALL BACK </button>
+        <div class="offcanvas offcanvas-top" id="submit">
+            <div class="offcanvas-header">
+                <div class="offcanvas-title "><h2 class="text-success">SUCCESS!</h2></div>
+                <button class=" btn-close" type="button" data-bs-dismiss="offcanvas"></button>
+            </div>
+            <div class="offcanvas-body">
+                <p style="font-size: 20px;">We will call you back as soon as possible</p>
+            </div>
+            <div class="oddcanvas-footer">
+                <strong>THANk YOU</strong>
+            </div>
+    
+        </div>
+    </form>
+
+    <div class="container m-auto d-flex justify-content-center">
+        <div class="pagination text-center m-auto">
+           <div class="page-item ">
+            <a class="page-link ">prev</a>
+           </div>
+           <div class="page-item active">
+            <a class="page-link">1</a>
+           </div>
+           <div class="page-item">
+            <a class="page-link">2</a>
+           </div>
+           <div class="page-item">
+            <a class="page-link">3</a>
+           </div>
+           <div class="page-item">
+            <a class="page-link">4</a>
+           </div>
+           <div class="page-item">
+            <a class="page-link">next</a>
+           </div>
+        </div>
+    </div>
+
+    
+</body>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+<script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.19.1/firebase-app.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    const firebaseConfig = {
+      apiKey: "AIzaSyAzm1xOQwTk3WydmlydUOsxZsrun8xX-k0",
+      authDomain: "educational-consultancy-c0b10.firebaseapp.com",
+      projectId: "educational-consultancy-c0b10",
+      storageBucket: "educational-consultancy-c0b10.appspot.com",
+      messagingSenderId: "116277870176",
+      appId: "1:116277870176:web:35cc3d9096e8c974024d05"
+    };
+  
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+  </script>
+</html>
